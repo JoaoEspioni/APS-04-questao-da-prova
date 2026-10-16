@@ -1,0 +1,22 @@
+Mundo 12x12 (semente 10)
+Obstáculos: 56 | Pedágios: 3
+
+Legenda: A agente | P pacote | X destino | # obstáculo | ~ pedágio | * rota | + rota em pedágio
+
+Mundo inicial:
+.##...##A...
+..#.##.#....
+#.#~~.#.##.#
+#.#.#..###..
+...#...#....
+#.#....##.#.
+.##.##..#~##
+.....##.#..#
+..#..#.###..
+#P#..#.#..##
+.##X.#....##
+.......#...#
+
+RESULTADO: NÃO EXISTE SOLUÇÃO para este mundo.
+Motivo: O pacote está isolado do agente: os obstáculos bloqueiam todo caminho entre a posição inicial do agente e a célula do pacote.
+(nós expandidos: 0 | tempo: 0.03 ms)

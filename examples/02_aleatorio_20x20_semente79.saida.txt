@@ -1,0 +1,57 @@
+Mundo 20x20 (semente 79)
+Obstáculos: 45 | Pedágios: 68
+
+Legenda: A agente | P pacote | X destino | # obstáculo | ~ pedágio | * rota | + rota em pedágio
+
+Mundo inicial:
+~...~#.#.~~.#.....~.
+#....#...##.....#...
+..~.~.#...~..#......
+.#...~#..~~...A~.~..
+...~....#.#.~.~...~#
+~.........~~....#...
+..~..#.#............
+...~~.~~........~.~.
+...~...#~..#.#~~.~X.
+..~......#.~....~.~~
+#...#.~...~.......##
+...~P...~..#~~.#...#
+~.~...~...........~.
+....~.~#........##.#
+~.....~~~.........#.
+....~..#...~~.~.#.#.
+..#.....#.~#~....~..
+..#..#..~~..........
+.~....~~...~...~....
+....#.....#~.#......
+
+RESULTADO: Plano ótimo encontrado (A*).
+Custo total: 43 | Ações: 37 | Nós expandidos: 188 | Nós gerados: 304 | Tempo: 1.23 ms
+
+Plano (→ direita, ← esquerda, ↑ cima, ↓ baixo; ×k = repetido k vezes):
+← ↓×4 ← ↓×3 ←×5 ↓ ←×3 [pegar] →×3 ↑ →×10 ↑×2 → [entregar]
+
+Sequência completa de ações:
+ESQUERDA, BAIXO, BAIXO, BAIXO, BAIXO, ESQUERDA, BAIXO, BAIXO, BAIXO, ESQUERDA, ESQUERDA, ESQUERDA, ESQUERDA, ESQUERDA, BAIXO, ESQUERDA, ESQUERDA, ESQUERDA, PEGAR, DIREITA, DIREITA, DIREITA, CIMA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, DIREITA, CIMA, CIMA, DIREITA, ENTREGAR
+
+Rota sobre o mundo:
+~...~#.#.~~.#.....~.
+#....#...##.....#...
+..~.~.#...~..#......
+.#...~#..~~..*A~.~..
+...~....#.#.~*~...~#
+~.........~~.*..#...
+..~..#.#.....*......
+...~~.~~....**..~.~.
+...~...#~..#*#~~.+X.
+..~......#.~*...~*~~
+#...#.~***+*******##
+...~P***~..#~~.#...#
+~.~...~...........~.
+....~.~#........##.#
+~.....~~~.........#.
+....~..#...~~.~.#.#.
+..#.....#.~#~....~..
+..#..#..~~..........
+.~....~~...~...~....
+....#.....#~.#......

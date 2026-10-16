@@ -1,0 +1,3 @@
+# Necessário apenas para a interface gráfica e para exportar PNG.
+# O solver, a CLI e os testes do núcleo usam só a biblioteca padrão.
+pygame>=2.0

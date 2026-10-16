@@ -1,0 +1,37 @@
+Mundo 10x10
+Obstáculos: 11 | Pedágios: 8
+
+Legenda: A agente | P pacote | X destino | # obstáculo | ~ pedágio | * rota | + rota em pedágio
+
+Mundo inicial:
+A~.#......
+..~#......
+...#~~..P.
+.......##.
+.###....~.
+.........~
+...~..#...
+.~....#...
+......#...
+.........X
+
+RESULTADO: Plano ótimo encontrado (A*).
+Custo total: 24 | Ações: 22 | Nós expandidos: 30 | Nós gerados: 54 | Tempo: 0.33 ms
+
+Plano (→ direita, ← esquerda, ↑ cima, ↓ baixo; ×k = repetido k vezes):
+↓×2 →×2 ↓ →×4 ↑ →×2 [pegar] → ↓×7 [entregar]
+
+Sequência completa de ações:
+BAIXO, BAIXO, DIREITA, DIREITA, BAIXO, DIREITA, DIREITA, DIREITA, DIREITA, CIMA, DIREITA, DIREITA, PEGAR, DIREITA, BAIXO, BAIXO, BAIXO, BAIXO, BAIXO, BAIXO, BAIXO, ENTREGAR
+
+Rota sobre o mundo:
+A~.#......
+*.~#......
+***#~~**P*
+..*****##*
+.###....~*
+.........+
+...~..#..*
+.~....#..*
+......#..*
+.........X

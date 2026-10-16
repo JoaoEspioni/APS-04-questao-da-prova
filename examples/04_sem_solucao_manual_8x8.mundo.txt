@@ -1,0 +1,10 @@
+; Mundo 8x8 sem solução: o pacote está cercado por obstáculos.
+; Reproduzir: python main.py --arquivo examples/04_sem_solucao_manual_8x8.mundo.txt --png saida.png
+A.....#.
+......#.
+..~~..#.
+..~~..##
+......#P
+.....###
+........
+.......X

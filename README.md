@@ -1,16 +1,7 @@
-# APS – Entregador em um mundo grid com obstáculos e pedágios
-
-Solução do problema da primeira parte da avaliação intermediária: um agente precisa **pegar um pacote e entregá-lo no destino** em um grid quadrado com obstáculos, gastando o **menor custo possível**. Células de pedágio (cinza) encarecem as ações executadas nelas (custo + 2). Funciona para **qualquer dimensão** de grid e **reconhece quando não existe solução**.
+APS 04: implementação da questão da prova
 
 ![Interface gráfica](docs/interface.png)
 
-## O que tem aqui
-
-- **Solver ótimo:** A\* com heurística admissível e consistente (Manhattan + ações obrigatórias), com prova em [`docs/modelagem.md`](docs/modelagem.md).
-- **Detecção de "sem solução":** por busca em largura (pacote/destino isolados) e pela própria busca esgotada.
-- **Interface gráfica** (pygame): o usuário define a dimensão N; agente, pacote, destino, obstáculos e pedágios são **sorteados** a cada novo mundo; o plano ótimo é calculado e pode ser **animado passo a passo**.
-- **Linha de comando** e exportação de **PNG**, para gerar exemplos reproduzíveis (por semente).
-- **Testes automatizados** (42) que validam o solver contra um Dijkstra exaustivo sem nenhuma poda.
 
 ## Como rodar
 
